@@ -19,7 +19,7 @@ function App() {
   async function handleAddRepository() {
     const repository = {
       title: `Novo repositório ${Date.now()}`,
-      url: "https://api.github.com/users/danilo-vieira/repos",
+      url: "localhost:3333",
       techs: ["React", "ReactJS", "React Native"],
     }
 
